@@ -18,9 +18,9 @@ LatN/S - Latitude (tenths of degrees) for the DTG: 0 through 900, N/S is the hem
 LonE/W - Longitude (tenths of degrees) for the DTG: 0 through 1800, E/W is the hemispheric index.   
 VMAX - Maximum sustained wind speed in knots: 0 through 300.   
 MSLP - Minimum sea level pressure, 1 through 1100 MB.   
--  TY - Level of tc development:  
--  DB - disturbance,   
--  TD - tropical depression,   
+TY - Level of tc development:  
+- DB - disturbance,   
+- TD - tropical depression,   
 - TS - tropical storm,  
 - TY - typhoon,  
 - ST - super typhoon,  
