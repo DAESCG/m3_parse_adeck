@@ -18,27 +18,29 @@ LatN/S - Latitude (tenths of degrees) for the DTG: 0 through 900, N/S is the hem
 LonE/W - Longitude (tenths of degrees) for the DTG: 0 through 1800, E/W is the hemispheric index.   
 VMAX - Maximum sustained wind speed in knots: 0 through 300.   
 MSLP - Minimum sea level pressure, 1 through 1100 MB.   
-TY - Level of tc development:  
-DB - disturbance,   
-TD - tropical depression,   
-TS - tropical storm,  
-TY - typhoon,  
-ST - super typhoon, 
-TC - tropical cyclone, 
-HU - hurricane, 
-SD - subtropical depression, 
-SS - subtropical storm, 
-EX - extratropical systems, 
-IN - inland, 
-DS - dissipating, 
-LO - low,  
-WV - tropical wave,  
-ET - extrapolated,  
-XX - unknown. 
+-  TY - Level of tc development:  
+-  DB - disturbance,   
+-  TD - tropical depression,   
+- TS - tropical storm,  
+- TY - typhoon,  
+- ST - super typhoon,  
+- TC - tropical cyclone,  
+- HU - hurricane,  
+- SD - subtropical depression,  
+- SS - subtropical storm,  
+- EX - extratropical systems,  
+- IN - inland,  
+- DS - dissipating,   
+- LO - low,   
+- WV - tropical wave,   
+- ET - extrapolated,   
+- XX - unknown.   
+
 RAD - Wind intensity (kts) for the radii defined in this record: 34, 50, 64.  
 WINDCODE - Radius code:  
-AAA - full circle  
-QQQ - quadrant (NNQ, NEQ, EEQ, SEQ, SSQ, SWQ, WWQ, NWQ)  
+- AAA - full circle  
+- QQQ - quadrant (NNQ, NEQ, EEQ, SEQ, SSQ, SWQ, WWQ, NWQ)  
+
 RAD1 - If full circle, radius of specified wind intensity, If semicircle or quadrant, radius of specified wind  intensity of circle portion specified in radius code. 0 - 1200 nm.  
 RAD2 - If full circle this field not used, If semicicle, radius (nm) of specified wind intensity for semicircle not specified in radius code, If quadrant, radius (nm) of specified wind intensity for 2nd quadrant (counting clockwise from quadrant specified in radius code). 0 through 1200 nm.  
 RAD3 - If full circle or semicircle this field not used, If quadrant, radius (nm) of specified wind intensity for 3rd quadrant (counting clockwise from quadrant specified in radius code). 0 through 1200 nm.  
@@ -49,31 +51,33 @@ MRD - radius of max winds, 0 - 999 nm.
 GUSTS - gusts, 0 through 995 kts.  
 EYE - eye diameter, 0 through 999 nm.  
 SUBREGION - subregion code: W, A, B, S, P, C, E, L, Q.  
-A - Arabian Sea  
-B - Bay of Bengal  
-C - Central Pacific  
-E - Eastern Pacific  
-L - Atlantic  
-P - South Pacific (135E - 120W)  
-Q - South Atlantic  
-S - South IO (20E - 135E)  
-W - Western Pacific  
+- A - Arabian Sea  
+- B - Bay of Bengal  
+- C - Central Pacific  
+- E - Eastern Pacific  
+- L - Atlantic  
+- P - South Pacific (135E - 120W)  
+- Q - South Atlantic  
+- S - South IO (20E - 135E)  
+- W - Western Pacific  
+
 MAXSEAS - max seas: 0 through 999 ft.  
 INITIALS - Forecaster's initials, used for tau 0 WRNG, up to 3 chars.  
 DIR - storm direction in compass coordinates, 0 - 359 degrees.  
 SPEED - storm speed, 0 - 999 kts.  
 STORMNAME - literal storm name, NONAME or INVEST. TCcyx used pre-1999, where:  
-cy = Annual cyclone number 01 through 99  
-x = Subregion code: W, A, B, S, P, C, E, L, Q.  
-A - Arabain Sea  
-B - Bay of Bengal  
-C - Central Pacific  
-E - Eastern Pacific  
-L - Atlantic  
-P - South Pacific (135E - 120W)  
-Q - South Atlantic  
-S - South IO (20E - 135E)  
-W - Western Pacific  
+- cy = Annual cyclone number 01 through 99  
+- x = Subregion code: W, A, B, S, P, C, E, L, Q.  
+- A - Arabian Sea  
+- B - Bay of Bengal  
+- C - Central Pacific  
+- E - Eastern Pacific  
+- L - Atlantic  
+- P - South Pacific (135E - 120W)  
+- Q - South Atlantic  
+- S - South IO (20E - 135E)  
+- W - Western Pacific 
+
 DEPTH - system depth, D-deep, M-medium, S-shallow, X-unknown  
 SEAS - Wave height for radii defined in SEAS1-SEAS4, 0-99 ft.  
 SEASCODE - Radius code:  
