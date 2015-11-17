@@ -19,13 +19,13 @@ or incomplete data, making them difficult to parse and query.
 The objective of this meeting is to increase awareness and motivate the use of
 more suitable technology to host and distribute large and complex datasets.
 
-Content
--------
+Contents
+--------
 1. `README.md`          - Master README file
 2. `aal112015.dat`      - A generic data file containing forecast information for TC Joaquin (2015)
 3. `data_format.md`     - A-DECK file format information
 4. `adeck_modellist.md` - A list of models used in the A-DECK file
-5. `joaquin_adeck.gif`  - Sample forecast track graphic
+5. `joaquin_adeck.gif`  - A sample forecast track graphic
 
 Installation
 ------------
