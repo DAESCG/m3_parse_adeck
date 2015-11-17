@@ -35,5 +35,6 @@ git clone https://github.com/DAESCG/m3_parse_adeck
 
 Instructions
 ------------
-1. Take a moment to familiarize yourself with the data contained in the A-DECK file included in this repository
-2.
+1. Take a moment to familiarize yourself with the data contained in the A-DECK file included in this repository.
+2. Load and parse the data using the program of your choice.
+3. Find all operational GFS forecasts initialized at 0000 UTC, 2 October 2015. Output the data to your console. Plot the corresponding forecast track.
