@@ -22,10 +22,11 @@ more suitable technology to host and distribute large and complex datasets.
 Contents
 --------
 1. `README.md`          - Master README file
-2. `aal112015.dat`      - A generic data file containing forecast information for TC Joaquin (2015)
-3. `data_format.md`     - A-DECK file format information
-4. `adeck_modellist.md` - A list of models used in the A-DECK file
-5. `joaquin_adeck.gif`  - A sample forecast track graphic
+2. `unix_guide.pdf`     - A condensed UNIX guide for navigating through the terminal window
+3. `aal112015.dat`      - A generic data file containing forecast information for TC Joaquin (2015)
+4. `data_format.md`     - A-DECK file format information
+5. `adeck_modellist.md` - A list of models used in the A-DECK file
+6. `joaquin_adeck.gif`  - A sample forecast track graphic
 
 Installation
 ------------
