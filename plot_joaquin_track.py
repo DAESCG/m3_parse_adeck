@@ -154,7 +154,7 @@ labels = ['< 64 kt',
           '83-95 kt [Cat 2]',
           '96-112 kt [Cat 3]',
           '113-136 kt [Cat 4]',
-          '> 137 kt [Cat 5]']
+          '> 136 kt [Cat 5]']
 
 L = plt.legend([p1, p2, p3, p4, p5, p6], labels, ncol=1, frameon=True,
     fontsize=10, loc=2, scatterpoints=1)
