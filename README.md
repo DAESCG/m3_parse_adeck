@@ -27,6 +27,7 @@ Contents
 4. `data_format.md`     - A-DECK file format information
 5. `adeck_modellist.md` - A list of models used in the A-DECK file
 6. `joaquin_adeck.gif`  - A sample forecast track graphic
+7. `examples`           - Contains directories of DAESCG members' code
 
 Installation
 ------------
@@ -39,5 +40,4 @@ Instructions
 1. Take a moment to familiarize yourself with the data contained in the A-DECK file included in this repository.
 2. Load and parse the data using the program of your choice.
 3. Find all operational GFS forecasts initialized at 0000 UTC, 2 October 2015. Output the data to your console. Plot the corresponding forecast track.
-4. UPLOAD your graphic(s) and code samples to this shared Google Drive folder:
-https://drive.google.com/drive/folders/0B0rF5z4Oj9PzS1VGcktGTGdYSm8
+4. Your examples will be placed in the examples directory

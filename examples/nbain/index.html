@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Joaquin</title>
+<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+<script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<style>
+#map {
+  width: 600px;
+  height: 400px;
+  border: 1px solid black;
+}
+</style>
+<script>
+function go()
+{
+  var map = L.map('map').setView([40, -50], 3);
+  var OpenStreetMap_Mapnik = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+  });
+  OpenStreetMap_Mapnik.addTo(map);
+  $.getJSON('joaquin.geojson', function (data) {
+    var joaquin = L.geoJson(data, {
+      style: function (feature) {
+        var s = {}
+        if (feature.geometry.type == 'Point')
+          //s = {color: color(feature.geometry.properties.max_sustained_wind)};
+        return s;
+      },
+      onEachFeature: function (feature, layer) {
+        if (feature.geometry.type == 'Point')
+        {
+          var props = feature.geometry.properties;
+          var lines = [];
+          lines.push('Maximum Sustained Winds: ' + props.max_sustained_wind + ' knots');
+          layer.bindPopup(lines.join("<br>\n"));
+        }
+      }
+    });
+    joaquin.addTo(map);
+  });
+}
+
+
+</script>
+</head>
+<body onLoad="javascript:go()">
+<div id="map"></div>
+</body>
+</html>

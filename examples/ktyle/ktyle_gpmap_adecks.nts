@@ -1,0 +1,49 @@
+MAP     31                                                                                                                              
+MSCALE  0                                                                                                                               
+GAREA   #30;-70;20;25                                                                                                                   
+PROJ    mer                                                                                                                             
+SATFIL                                                                                                                                  
+RADFIL                                                                                                                                  
+IMCBAR                                                                                                                                  
+LATLON  29/2///2;2                                                                                                                      
+PANEL   0                                                                                                                               
+TITLE   31/-1/ADECK for Joaquin, 151002 12Z Init                                                                                        
+TEXT    0.9/21//hw                                                                                                                      
+CLEAR   YES                                                                                                                             
+DEVICE  gf|joaquin_adeck.gif|900;800                                                                                                    
+LUTFIL                                                                                                                                  
+STNPLT                                                                                                                                  
+VGFILE                                                                                                                                  
+AFOSFL                                                                                                                                  
+AWPSFL                                                                                                                                  
+LINE    3                                                                                                                               
+WATCH                                                                                                                                   
+WARN                                                                                                                                    
+HRCN                                                                                                                                    
+ISIG                                                                                                                                    
+LTNG                                                                                                                                    
+ATCF    151002/0000|26|AVNO|Y|Y|Y|Y                                                                                                           
+AIRM                                                                                                                                    
+GAIRM                                                                                                                                   
+NCON                                                                                                                                    
+CSIG                                                                                                                                    
+SVRL                                                                                                                                    
+BND                                                                                                                                     
+TCMG                                                                                                                                    
+QSCT                                                                                                                                    
+WSTM                                                                                                                                    
+WOU                                                                                                                                     
+WCN                                                                                                                                     
+WCP                                                                                                                                     
+ENCY                                                                                                                                    
+FFA                                                                                                                                     
+WSAT                                                                                                                                    
+ASCT                                                                                                                                    
+TRAK1                                                                                                                                   
+TRAKE                                                                                                                                   
+TRAK2                                                                                                                                   
+OSCT                                                                                                                                    
+SGWH                                                                                                                                    
+ASDI                                                                                                                                    
+EDR                                                                                                                                     
+WSPDA                                                                                                                                   
